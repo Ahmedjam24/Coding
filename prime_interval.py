@@ -9,3 +9,4 @@ for num in range(lower+1, upper):
                 break
         else:
             print(num)
+            print " "
