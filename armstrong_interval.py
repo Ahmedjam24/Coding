@@ -9,7 +9,7 @@ for usr in range(int(usr1[0])+1,int(usr1[1])):
         sum = sum + (rem ** 3)
         usr = usr / 10
     if sum == tem:
-        arm.extend(str(tem))
-        arm.extend(' ')
+        arm.append(sum)
+        arm.append(' ')
 del arm[len(arm)-1]
-print arm
+print str(arm)
