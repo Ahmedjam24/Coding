@@ -1,0 +1,7 @@
+time1=raw_input()
+time2=raw_input()
+time1=time1.split()
+time2=time2.split()
+hr=int(time1[0])-int(time2[0])
+min=int(time1[1])-int(time2[1])
+print str(abs(hr))+" "+str(abs(min))
